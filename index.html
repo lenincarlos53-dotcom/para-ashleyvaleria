@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100b13">
+  <meta name="description" content="Una pequeña sorpresa hecha con amor para Ashley Valeria Ruiz.">
+  <title>Para Ashley Valeria Ruiz 💗</title>
+  <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+  <div class="hearts-bg" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio">Para mi niña <span>♡</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#inicio">Inicio</a><a href="#fotos">Fotos</a><a href="#carta">Carta</a>
+      <a href="#sorpresa">Sorpresa</a><a href="#preguntas">Preguntas</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Hecho con todo mi corazón</p>
+        <h1>Para vos, <span>Ashley Valeria Ruiz</span> <span class="pink">♡</span></h1>
+        <p class="hero-text">No soy experto haciendo páginas perfectas, pero sí sé que quería crear algo especial para la persona que hace mis días más bonitos.</p>
+        <a class="button" href="#carta">Tengo algo que decirte <span>↓</span></a>
+        <p class="signature">Te amo, mi niña. <span>♥</span></p>
+      </div>
+    </section>
+
+    <section class="section content-section" id="fotos">
+      <div class="section-heading">
+        <span class="section-icon">♡</span>
+        <p class="eyebrow">Nuestros momentos</p>
+        <h2>Fotos de nosotros</h2>
+        <p>Quiero guardar esos recuerdos que me hacen sonreír cada vez que los pienso.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="WhatsApp Image 2026-10-18 at 13.18.34.jpeg" alt="Un recuerdo de nosotros"><figcaption>Un momento bonito ♡</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-10-18 at 15.57.50.jpeg" alt="Otro recuerdo de nosotros"><figcaption>Con vos todo es mejor</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-10-18 at 13.18.34(1).jpeg" alt="Un recuerdo especial"><figcaption>Mi lugar feliz ♥</figcaption></figure>
+      </div>
+     
+    </section>
+
+    <section class="section letter-section" id="carta">
+      <div class="letter-wrap">
+        <div class="section-heading">
+          <span class="section-icon">✉</span>
+          <p class="eyebrow">Unas palabras para vos</p>
+          <h2>Mi carta de amor</h2>
+        </div>
+        <article class="letter">
+          <p class="letter-dear">Mi Ashley:</p>
+          <p>No sé si una página web alcanza para explicar todo lo que siento por vos, pero quería intentarlo de una manera diferente.</p>
+          <p>Gracias por formar parte de mi vida, por los momentos que compartimos y por todas esas pequeñas cosas tuyas que te hacen tan especial para mí. A veces quizá no encuentro las palabras exactas, pero eso no significa que no sienta un montón.</p>
+          <p>Quiero seguir creando recuerdos con vos, aprender de lo bueno y de lo difícil, reírnos por cualquier tontería y recordarte que sos alguien muy importante para mí.</p>
+          <p>No te prometo ser perfecto; te prometo hablarte con sinceridad, cuidar lo nuestro y demostrarte con hechos lo que significás para mí.</p>
+          <p class="letter-end">Te amo, hoy y siempre. <span>♥</span></p>
+          <p class="letter-sign">Con amor,<br><strong>Carlos</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section surprise-section" id="sorpresa">
+      <div class="section-heading">
+        <span class="section-icon">🎁</span>
+        <p class="eyebrow">Hay algo más...</p>
+        <h2>Tu pequeña sorpresa</h2>
+        <p>Respirá profundo y tocá el corazón. Este mensajito es solo para vos.</p>
+      </div>
+      <button class="big-heart" id="surpriseBtn" aria-label="Descubrir la sorpresa"><span>♥</span><small>TOCÁ AQUÍ</small></button>
+      <div class="surprise-message" id="surpriseMessage" hidden>
+        <h3>¡Sorpresa, mi amor! 💗</h3>
+        <p>Entre tantas personas en el mundo, qué bonito que nuestras vidas se hayan encontrado. No olvidés nunca lo valiosa que sos para mí.</p>
+        <p class="signature">Vos y yo, creando recuerdos. ♡</p>
+      </div>
+    </section>
+
+    <section class="section content-section quiz-section" id="preguntas">
+      <div class="section-heading">
+        <span class="section-icon">💗?</span>
+        <p class="eyebrow">Un jueguito para vos</p>
+        <h2>¿Cuánto conocés nuestro amor?</h2>
+        <p>No hay presión: lo importante es divertirnos y recordar cosas bonitas.</p>
+      </div>
+      <div class="quiz-card" id="quizCard">
+        <div class="quiz-top"><span id="questionCount">Pregunta 1 de 4</span><span>♥</span></div>
+        <h3 id="questionText">¿Qué es lo que más quiero hacer con vos?</h3>
+        <div class="answers" id="answers"></div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+        <button class="button" id="nextQuestion" disabled>Siguiente pregunta →</button>
+      </div>
+     
+    </section>
+
+    <section class="final-section">
+      <div class="final-overlay"></div>
+      <div class="final-content">
+        <p class="eyebrow">Y por si no te lo digo suficiente...</p>
+        <h2>Gracias por existir,<br><span>Ashley Valeria Ruiz</span> ♡</h2>
+        <p>Sos una persona muy especial para mí.</p>
+        <a class="outline-button" href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Hecho con ♥ por Carlos</span><span>Ashley Valeria Ruiz · Te amo · Siempre</span></footer>
+</body>
+</html>
